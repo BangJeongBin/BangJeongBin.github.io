@@ -1,51 +1,51 @@
 title: Moonwalk
 author: Abhinav Saxena
-url: https://www.abhinavsaxena.com/moonwalk # root address of the site
-description: > # description of the site (multiple lines allowed)
-  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
+url: https://www.abhinavsaxena.com/moonwalk # 사이트의 루트 주소
+description: > # 사이트 설명 (여러 줄 가능)
+  Moonwalk는 깨끗한 다크 모드를 갖춘 빠르고 우아한 Jekyll 테마입니다. 가로 목록(네비게이션 바 및 푸터용), 카드 목록(포트폴리오용), 일반적인 세로 목록을 제공합니다. 테마를 커스터마이징하기 매우 쉬우며, 추가 수정이 필요하면 `_layouts/home.html`을 확인하세요.
 
-permalink: /:slug
+permalink: /:slug # 페이지의 기본 URL 형식
 
-favicon: "./logo.png" # relative path to site's favicon
+favicon: "./logo.png" # 사이트 파비콘의 상대 경로
 
 twitter:
-    username: abhinav # update or delete this
-    card: summary_large_image
+    username: abhinav # 트위터 사용자명 (필요에 따라 수정 또는 삭제 가능)
+    card: summary_large_image # 트위터 카드 스타일
 
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-remote_theme: abhinavs/moonwalk
+#theme: moonwalk # GitHub Pages를 사용하는 경우, 아래 설정을 사용해야 함
+remote_theme: abhinavs/moonwalk # 원격 테마 설정
 
 theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
-  appearance_toggle: true # if appearance can be switched by user
-  back_home_text: "home.." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description
-  show_navbar: true # show horizontal navbar
-  show_footer: true # show footer links in home page,add in _data/home.yml
-  show_copyright: true # show copyright notice in footer
-  # following keys are using to create home layout
-  show_projects: true # show projects as cards, add in _data/home.yml
-  show_blog: true # show blog posts added in _posts
-  show_old_projects: true # show old projects as cards, add in _data/home.yml
-  show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
-  show_reading_time: true # show number of words and reading time in the blog posts
-  show_tags: true # show tags in a blog posts
-  # options for "home" page
+  appearance: "dark" # 테마 모드 설정 ("light", "dark", "auto" 중 선택)
+  appearance_toggle: true # 사용자가 테마 모드를 변경할 수 있도록 허용
+  back_home_text: "home.." # 게시물 레이아웃에서 홈 링크의 텍스트 커스텀 설정
+  date_format: "%Y-%m-%d" # 날짜 형식 설정
+  show_description: true # 블로그 설명 표시 여부
+  show_navbar: true # 가로 네비게이션 바 표시 여부
+  show_footer: true # 홈페이지 푸터 링크 표시 여부 (`_data/home.yml`에서 설정 추가 필요)
+  show_copyright: true # 푸터에 저작권 표시 여부
+  # 아래 설정값은 홈페이지 레이아웃 구성에 사용됨
+  show_projects: true # 프로젝트를 카드 형태로 표시 (`_data/home.yml`에서 설정 추가 필요)
+  show_blog: true # `_posts` 폴더에 추가된 블로그 게시물 표시 여부
+  show_old_projects: true # 이전 프로젝트를 카드 형태로 표시 (`_data/home.yml`에서 설정 추가 필요)
+  show_misc_list: false # 기타 정보를 세로 목록 형태로 표시 (`_data/home.yml`에서 설정 추가 필요)
+  show_reading_time: true # 블로그 게시물에 단어 수 및 예상 읽기 시간 표시
+  show_tags: true # 블로그 게시물에 태그 표시 여부
+  # "홈" 페이지의 옵션
   home:
-    title_projects: Portfolio
-    title_misc_list: Details
-    title_blog: Blog
-    title_old_projects: Old Projects
+    title_projects: Portfolio # 포트폴리오 섹션 제목
+    title_misc_list: Details # 기타 정보 섹션 제목
+    title_blog: Blog # 블로그 섹션 제목
+    title_old_projects: Old Projects # 이전 프로젝트 섹션 제목
 
 soopr:
-  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+  publish_token: "" # https://www.soopr.co 가입 후 공유 및 반응 기능을 개인화하기 위한 토큰 입력
 
-highlighter: rouge
+highlighter: rouge # 코드 하이라이터 설정
 
 sass:
-  style: :compressed
+  style: :compressed # SASS 스타일 압축 설정
 
 plugins:
-  - jekyll-feed
-  - jekyll-soopr-seo-tag
+  - jekyll-feed # Jekyll RSS 피드 플러그인
+  - jekyll-soopr-seo-tag # SEO 최적화를 위한 Soopr 플러그인
