@@ -1,8 +1,9 @@
-title: Moonwalk
-author: Abhinav Saxena
+title: Jeongbin Bang
+author: Jeongbin Bang
 url: https://www.abhinavsaxena.com/moonwalk # 사이트의 루트 주소
 description: > # 사이트 설명 (여러 줄 가능)
-  Moonwalk는 깨끗한 다크 모드를 갖춘 빠르고 우아한 Jekyll 테마입니다. 가로 목록(네비게이션 바 및 푸터용), 카드 목록(포트폴리오용), 일반적인 세로 목록을 제공합니다. 테마를 커스터마이징하기 매우 쉬우며, 추가 수정이 필요하면 `_layouts/home.html`을 확인하세요.
+   항상 더 좋은 방법을 고민하고 끊임없이 배우는 백엔드 개발자 방정빈입니다! <br>
+   프로페셔널을 지향하고 논리적인 사고를 바탕으로 왜?(Why)가 있는 개발자가 되게 위해 노력합니다. 또한 도전을 즐기고 긍정적인 태도로 문제를 임하며 같이 일하고 싶은 개발자를 목표로 하고있습니다.
 
 permalink: /:slug # 페이지의 기본 URL 형식
 
