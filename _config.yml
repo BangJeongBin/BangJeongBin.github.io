@@ -29,7 +29,7 @@ theme_config:
   show_projects: true # 프로젝트를 카드 형태로 표시 (`_data/home.yml`에서 설정 추가 필요)
   show_blog: true # `_posts` 폴더에 추가된 블로그 게시물 표시 여부
   show_old_projects: true # 이전 프로젝트를 카드 형태로 표시 (`_data/home.yml`에서 설정 추가 필요)
-  show_misc_list: false # 기타 정보를 세로 목록 형태로 표시 (`_data/home.yml`에서 설정 추가 필요)
+  show_misc_list: true # 기타 정보를 세로 목록 형태로 표시 (`_data/home.yml`에서 설정 추가 필요)
   show_reading_time: true # 블로그 게시물에 단어 수 및 예상 읽기 시간 표시
   show_tags: true # 블로그 게시물에 태그 표시 여부
   # "홈" 페이지의 옵션
