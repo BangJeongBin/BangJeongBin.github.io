@@ -26,6 +26,10 @@ layout: default
   {% include vertical_list.html collection=site.data.home.misc_entries %}
 {% endif %}
 
+<!-- 사용 기술스택 -->
+  <h2>My favorite tools and technologies</h2>
+  {% include tech_stack.html %}
+
 {% if site.theme_config.show_blog == true %}
   <h2>{{ site.theme_config.home.title_blog }}</h2>
   {% include post_list.html %}
