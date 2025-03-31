@@ -38,6 +38,7 @@ li { margin: 0.4em 0; }
 }
 
 table, th, td {
+  table-layout: fixed; // table td조절
   width: 100%;
   border: thin solid black;
   border-collapse: collapse;
