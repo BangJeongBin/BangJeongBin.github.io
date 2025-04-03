@@ -10,6 +10,7 @@ layout: default
 
   <h1>{{ site.title }}</h1>
   {% if site.theme_config.show_description == true %}
+  <h4><i class="bi bi-envelope-at"></i>&nbsp; : bangjungbin@gmail.com</h4>
     <p>{{ site.description }}</p>
   {% endif %}
 </header>
@@ -21,8 +22,8 @@ layout: default
   {% include tech_stack.html %}<br>
 
 <!-- 경력 리스트 -->
-  <h2><i class="bi bi-buildings"></i>&emsp; Career</h2>
-  {% include career_list.html %}<br>
+  <!-- <h2><i class="bi bi-buildings"></i>&emsp; Career</h2>
+  {% include career_list.html %}<br> -->
 
 <!-- Portfolio -->
 {% if site.theme_config.show_projects == true %}
