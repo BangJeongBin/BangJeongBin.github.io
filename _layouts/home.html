@@ -35,6 +35,8 @@ layout: default
   {% include card_list.html collection=site.data.home.project_entries %}
 {% endif %}<br>
 
+<hr>
+
 <!-- 학력 리스트 -->
 <h2><i class="bi bi-mortarboard"></i>&emsp; Education</h2><br>
 {% include education_list.html %}<br>
@@ -48,22 +50,26 @@ layout: default
 <hr>
 
 <!-- Details -->
-{% if site.theme_config.show_misc_list == true %}
+<!-- {% if site.theme_config.show_misc_list == true %}
   <h2>{{ site.theme_config.home.title_misc_list }}</h2>
   {% include vertical_list.html collection=site.data.home.misc_entries %}
-{% endif %}<br>
+{% endif %}<br> -->
 
 <!-- Blog -->
 {% if site.theme_config.show_blog == true %}
-  <h2>{{ site.theme_config.home.title_blog }}</h2>
+  <h2><i class="bi bi-book"></i>&emsp; {{ site.theme_config.home.title_blog }}</h2><br>
   {% include post_list.html %}
 {% endif %}<br>
 
+<!-- 관련활동 리스트 -->
+<!-- <h2><i class="bi bi-display"></i>&emsp; Extracurricular Activities</h2><br>
+{% include activities_list.html %}<br> -->
+
 <!-- Old Projects -->
-{% if site.theme_config.show_old_projects == true %}
+<!-- {% if site.theme_config.show_old_projects == true %}
   <h2>{{ site.theme_config.home.title_old_projects }}</h2>
   {% include card_list.html collection=site.data.home.old_project_entries %}
-{% endif %}<br>
+{% endif %}<br> -->
 
 
 {% if site.theme_config.show_footer == true %}
