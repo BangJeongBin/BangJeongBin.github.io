@@ -1,6 +1,6 @@
 title: Jeongbin Bang
 author: Jeongbin Bang
-url: https://www.abhinavsaxena.com/moonwalk # 사이트의 루트 주소
+url: https://bangjeongbin.github.io # 사이트의 루트 주소
 description: > # 사이트 설명 (여러 줄 가능)
    항상 더 좋은 방법을 고민하고 끊임없이 배우는 백엔드 개발자 방정빈입니다! <br>
    프로페셔널을 지향하고 논리적인 사고를 바탕으로 왜?(Why)가 있는 개발자가 되기 위해 노력합니다. 또한 도전을 즐기고 긍정적인 태도로 문제를 임하며 같이 일하고 싶은 개발자를 목표로 하고 있습니다.
@@ -17,7 +17,7 @@ twitter:
 remote_theme: abhinavs/moonwalk # 원격 테마 설정
 
 theme_config:
-  appearance: "dark" # 테마 모드 설정 ("light", "dark", "auto" 중 선택)
+  appearance: "auto" # 테마 모드 설정 ("light", "dark", "auto" 중 선택)
   appearance_toggle: true # 사용자가 테마 모드를 변경할 수 있도록 허용
   back_home_text: "home.." # 게시물 레이아웃에서 홈 링크의 텍스트 커스텀 설정
   date_format: "%Y-%m-%d" # 날짜 형식 설정
