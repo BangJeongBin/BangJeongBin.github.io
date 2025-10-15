@@ -12,17 +12,17 @@ navbar_entries:
     url: blog    
 
 project_entries:
+  - title: Company Project
+    url: company-project
+    desc: 학원에서 학생들을 관리할 수 있는 학사관리 서비스 입니다. 수업의 커리큘럼대로 출석과 테스트 점수등을 입력 받고 수료를 받는 전 과정을 관리시스템에서 진행합니다.
+    
   - title: HouseWay
     url: houseway
-    desc: 대학생들의 주거 고민을 해결해 주는 원룸 찾기 서비스입니다. 공인중개사와 대학생을 직접 연결합니다.
+    desc: 대학생을 대상으로 하는 부동산 거래 플랫폼 서비스 입니다. 학생과 공인중개사를 직접 매칭하여 불필요한 과정을 생략하고 바로 거래 할 수 있도록 합니다.
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
-
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  # - title: Project 3
+  #   url: overview-post
+  #   desc: You can control visibility from _config.yml file
 
   # - title: Project 4
   #   url: overview-post
