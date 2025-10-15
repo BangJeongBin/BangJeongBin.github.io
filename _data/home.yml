@@ -8,8 +8,8 @@ navbar_entries:
   - title: T Story
     url: https://bin4399.tistory.com/
     
-  - title: Posts
-    url: blog    
+  # - title: Posts
+  #   url: blog    
 
 project_entries:
   - title: Company Project
@@ -66,8 +66,8 @@ footer_entries:
   - title: TIL-Blog
     url: https://bangjeongbin.github.io/TIL-Blog/
 
-  - title: Posts
-    url: blog
+  # - title: Posts
+  #   url: blog
 
   - title: feed
     url: feed.xml
