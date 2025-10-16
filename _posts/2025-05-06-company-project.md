@@ -105,7 +105,7 @@ layout: post
 
 - **아키텍처 다이어그램**
 
-[ERD Diagram 링크](https://drive.google.com/file/d/1uPjuI-It98BK5cblLxbgAtwFObtsHJ5M/view?usp=drive_link)
+[ERD Diagram 링크](https://drive.google.com/file/d/1uPjuI-It98BK5cblLxbgAtwFObtsHJ5M/view?usp=sharing)
 
 - **ERD**
 
