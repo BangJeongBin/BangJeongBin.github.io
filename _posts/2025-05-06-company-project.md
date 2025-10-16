@@ -114,15 +114,15 @@ layout: post
 ## 5. 작성 문서 (Deliverables)
 ---
 
-- [요구사항 명세서 링크](https://drive.google.com/file/d/1edgNto8dlFNehbWMFDiCsAvP0xYwrplO/view?usp=drive_link)
+- [요구사항 명세서 링크](https://drive.google.com/file/d/1edgNto8dlFNehbWMFDiCsAvP0xYwrplO/view?usp=sharing)
 	
-- [UseCase Diagram 링크](https://drive.google.com/file/d/1_cOrtPCfBNhilgO3-mbrE83TDCeZvxHU/view?usp=drive_link)
+- [UseCase Diagram 링크](https://drive.google.com/file/d/1_cOrtPCfBNhilgO3-mbrE83TDCeZvxHU/view?usp=sharing)
 	
-- [Process Modeling 링크](https://drive.google.com/file/d/1Pfa43bfY1Y_Zu1Qke1dTgKLZ_pRTdBNW/view?usp=drive_link)
+- [Process Modeling 링크](https://drive.google.com/file/d/1Pfa43bfY1Y_Zu1Qke1dTgKLZ_pRTdBNW/view?usp=sharing)
 	
-- [기능 정의서 링크](https://drive.google.com/file/d/1k9flrh6s6oK20oB2rqNn29xF2wm0XwEo/view?usp=drive_link)
+- [기능 정의서 링크](https://drive.google.com/file/d/1k9flrh6s6oK20oB2rqNn29xF2wm0XwEo/view?usp=sharing)
 
-- [WBS 링크](https://drive.google.com/file/d/18t_rIrol3yg0CVLbj3kTic2tV-9dtfZV/view?usp=drive_link)
+- [WBS 링크](https://drive.google.com/file/d/18t_rIrol3yg0CVLbj3kTic2tV-9dtfZV/view?usp=sharing)
 
 <br>
 
