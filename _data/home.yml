@@ -11,14 +11,17 @@ navbar_entries:
   # - title: Posts
   #   url: blog    
 
+# Protfolio 섹션
 project_entries:
-  - title: Company Project
-    url: company-project
-    desc: 학원에서 학생들을 관리할 수 있는 학사관리 서비스 입니다. 수업의 커리큘럼대로 출석과 테스트 점수등을 입력 받고 수료를 받는 전 과정을 관리시스템에서 진행합니다.
-    
-  - title: HouseWay
-    url: houseway
-    desc: 대학생을 대상으로 하는 부동산 거래 플랫폼 서비스 입니다. 학생과 공인중개사를 직접 매칭하여 불필요한 과정을 생략하고 바로 거래 할 수 있도록 합니다.
+  - title: 쇼핑몰 CMS 취약점 분석보고서
+    url: https://docs.google.com/document/d/1SgHTeXvVJVViugyiAeoVCRZHdV5gNqa1DVtbioduJl0/edit?usp=sharing
+    desc: 테스트 환경에서 구축된 취약한 쇼핑몰 CMS 서비스를 모의해킹을 통한 분석 수행 및 발견된 취약점을 토대로 실제 위협 시나리오를 구성하여 보고서 작성
+    highlight: 모의해킹
+
+  - title: 악성코드 샘플 분석보고서
+    url: https://docs.google.com/document/d/1RhfM_9fs7RR6bghvPRBISnJpgxDUVyjdjBQvp0NgF7o/edit?usp=sharing
+    desc: 악성코드 샘플을 동적/정적 분석하여 시나리오를 따라가며 진행되는 악성 행위를 분석하고 그 과정에서 생기는 산출물들을 정리하여 보고서 작성
+    highlight: 악성코드 분석
 
   # - title: Project 3
   #   url: overview-post
@@ -38,23 +41,32 @@ project_entries:
   #   url: overview-post
   #   desc: It also has a scalable vertical list (in case you need it)
 
+# Dev Projects 섹션
 old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
+  - title: Company Project
+    url: company-project
+    desc: 학원에서 학생들을 관리할 수 있는 학사관리 서비스 입니다. 수업의 커리큘럼대로 출석과 테스트 점수등을 입력 받고 수료를 받는 전 과정을 관리시스템에서 진행합니다.
+    
+  - title: HouseWay
+    url: houseway
+    desc: 대학생을 대상으로 하는 부동산 거래 플랫폼 서비스 입니다. 학생과 공인중개사를 직접 매칭하여 불필요한 과정을 생략하고 바로 거래 할 수 있도록 합니다.
 
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
+  # - title: Soopr
+  #   url: https://www.soopr.co
+  #   desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+  #   highlight: NEW
 
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
+  # - title: Cookie
+  #   url: https://github.com/abhinavs/cookie
+  #   desc: An open source landing website with supporting pages and integrated blog
 
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  # - title: Moonwalk
+  #   url: https://github.com/abhinavs/moonwalk
+  #   desc: A fast and minimalist Jekyll blog theme with clean dark mode
+
+  # - title: Humangous
+  #   url: https://www.humangous.co
+  #   desc: The better people know you, the better they collaborate
 
 footer_entries:
   - title: Home

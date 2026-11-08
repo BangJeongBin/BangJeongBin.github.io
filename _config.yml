@@ -38,9 +38,9 @@ theme_config:
   # "홈" 페이지의 옵션
   home:
     title_projects: Portfolio # 포트폴리오 섹션 제목
+    title_old_projects: Dev Projects # 이전 프로젝트 섹션 제목
     title_misc_list: Details # 기타 정보 섹션 제목
     title_blog: Blog # 블로그 섹션 제목
-    title_old_projects: Old Projects # 이전 프로젝트 섹션 제목
 
 soopr:
   publish_token: "" # https://www.soopr.co 가입 후 공유 및 반응 기능을 개인화하기 위한 토큰 입력
