@@ -24,6 +24,12 @@ layout: default
   {% include tech_stack.html %}<br>
   <hr> -->
 
+<!-- 관련활동 리스트 -->
+<h2><i class="bi bi-display"></i>&emsp; Learning Archive</h2><br>
+{% include activities_list.html %}<br>
+
+<hr>
+
 <!-- 경력 리스트 -->
   <h2><i class="bi bi-buildings"></i>&emsp; Work Experience</h2><br>
     {% include career_list.html %}<br>
@@ -67,10 +73,6 @@ layout: default
   <h2><i class="bi bi-book"></i>&emsp; {{ site.theme_config.home.title_blog }}</h2><br>
   {% include post_list.html %}
 {% endif %}<br> -->
-
-<!-- 관련활동 리스트 -->
-<h2><i class="bi bi-display"></i>&emsp; Learning Archive</h2><br>
-{% include activities_list.html %}<br>
 
 {% if site.theme_config.show_footer == true %}
   <footer>
